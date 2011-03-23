@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="proto_out"/>
+	<classpathentry kind="src" path="tests/src"/>
+	<classpathentry kind="lib" path="jar/protobuf-java-2.2.0-lite.jar"/>
+	<classpathentry kind="lib" path="tests/jar/junit-4.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
