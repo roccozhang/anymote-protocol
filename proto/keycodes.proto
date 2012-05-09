@@ -18,6 +18,8 @@
 
 syntax    = "proto2";
 
+package anymote.messages;
+
 option java_outer_classname    = "Key";
 option java_package    = "com.google.anymote";
 option optimize_for    = LITE_RUNTIME;

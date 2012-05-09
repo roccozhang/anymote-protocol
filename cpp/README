@@ -1,0 +1,19 @@
+Anymote Protocol
+================
+
+http://code.google.com/p/anymote-protocol
+
+Overview
+--------
+
+The Anymote Protocol is a messaging protocol that applications on a remote
+device use to communicate with Google TV. This protocol allows developers to
+write applications that enable mobile phones, tablets, or other devices to
+interact with Google TV. You can write applications to enable handheld devices
+to act either as fully-fledged remote TV controllers or to have some part of
+an application connect to Google TV. For example, you might build an application
+that runs on a mobile phone, but has the ability to switch to the TV to display
+a web page.
+
+See INSTALL for build and installation instructions.
+
