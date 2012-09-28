@@ -24,6 +24,7 @@ option java_outer_classname    = "Key";
 option java_package    = "com.google.anymote";
 option optimize_for    = LITE_RUNTIME;
 
+
 enum Code {
     KEYCODE_UNKNOWN            = 0;
     KEYCODE_SOFT_LEFT          = 1;
@@ -158,6 +159,53 @@ enum Code {
     KEYCODE_BD_TOP_MENU        = 144;
     KEYCODE_SETTINGS           = 145;
     KEYCODE_SETUP              = 146;
+    KEYCODE_MICROPHONE_MUTE    = 147;
+
+    KEYCODE_PICTSYMBOLS        = 148;
+    KEYCODE_SWITCH_CHARSET     = 149;
+    KEYCODE_FORWARD_DEL        = 150;
+    KEYCODE_SCROLL_LOCK        = 151;
+    KEYCODE_FUNCTION           = 152;
+    KEYCODE_SYSRQ              = 153;
+    KEYCODE_BREAK              = 154;
+    KEYCODE_MOVE_HOME          = 155;
+    KEYCODE_MOVE_END           = 156;
+    KEYCODE_FORWARD            = 157;
+    KEYCODE_MEDIA_CLOSE        = 158;
+    KEYCODE_F1                 = 159;
+    KEYCODE_F2                 = 160;
+    KEYCODE_F3                 = 161;
+    KEYCODE_F4                 = 162;
+    KEYCODE_F5                 = 163;
+    KEYCODE_F6                 = 164;
+    KEYCODE_F7                 = 165;
+    KEYCODE_F8                 = 166;
+    KEYCODE_F9                 = 167;
+    KEYCODE_F10                = 168;
+    KEYCODE_F11                = 169;
+    KEYCODE_F12                = 170;
+    KEYCODE_NUM_LOCK           = 171;
+    KEYCODE_NUMPAD_0           = 172;
+    KEYCODE_NUMPAD_1           = 173;
+    KEYCODE_NUMPAD_2           = 174;
+    KEYCODE_NUMPAD_3           = 175;
+    KEYCODE_NUMPAD_4           = 176;
+    KEYCODE_NUMPAD_5           = 177;
+    KEYCODE_NUMPAD_6           = 178;
+    KEYCODE_NUMPAD_7           = 179;
+    KEYCODE_NUMPAD_8           = 180;
+    KEYCODE_NUMPAD_9           = 181;
+    KEYCODE_NUMPAD_DIVIDE      = 182;
+    KEYCODE_NUMPAD_MULTIPLY    = 183;
+    KEYCODE_NUMPAD_SUBTRACT    = 184;
+    KEYCODE_NUMPAD_ADD         = 185;
+    KEYCODE_NUMPAD_DOT         = 186;
+    KEYCODE_NUMPAD_COMMA       = 187;
+    KEYCODE_NUMPAD_ENTER       = 188;
+    KEYCODE_NUMPAD_EQUALS      = 189;
+    KEYCODE_NUMPAD_LEFT_PAREN  = 190;
+    KEYCODE_NUMPAD_RIGHT_PAREN = 191;
+    KEYCODE_APP_SWITCH         = 192;
 
     // Pointer buttons
     BTN_FIRST                  = 256;
@@ -182,6 +230,39 @@ enum Code {
     BTN_FORWARD                = 277;
     BTN_BACK                   = 278;
     BTN_TASK                   = 279;
+
+    // Game controller buttons
+    BTN_GAME_A                 = 280;
+    BTN_GAME_B                 = 281;
+    BTN_GAME_C                 = 282;
+    BTN_GAME_X                 = 283;
+    BTN_GAME_Y                 = 284;
+    BTN_GAME_Z                 = 285;
+    BTN_GAME_L1                = 286;
+    BTN_GAME_R1                = 287;
+    BTN_GAME_L2                = 288;
+    BTN_GAME_R2                = 289;
+    BTN_GAME_THUMBL            = 290;
+    BTN_GAME_THUMBR            = 291;
+    BTN_GAME_START             = 292;
+    BTN_GAME_SELECT            = 293;
+    BTN_GAME_MODE              = 294;
+    BTN_GAME_1                 = 295;
+    BTN_GAME_2                 = 296;
+    BTN_GAME_3                 = 297;
+    BTN_GAME_4                 = 298;
+    BTN_GAME_5                 = 299;
+    BTN_GAME_6                 = 300;
+    BTN_GAME_7                 = 301;
+    BTN_GAME_8                 = 302;
+    BTN_GAME_9                 = 303;
+    BTN_GAME_10                = 304;
+    BTN_GAME_11                = 305;
+    BTN_GAME_12                = 306;
+    BTN_GAME_13                = 307;
+    BTN_GAME_14                = 308;
+    BTN_GAME_15                = 309;
+    BTN_GAME_16                = 310;
 }
 
 enum Action {
