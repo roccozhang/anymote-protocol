@@ -1,0 +1,7 @@
+The [Anymote Protocol](http://code.google.com/tv/remote/docs/index.html) is a messaging protocol that applications on a remote device use to communicate with Google TV.  This protocol allows developers to write applications that enable mobile phones, tablets, or other devices to interact with Google TV.  You can write applications to enable handheld devices to act either as fully-fledged remote TV controllers or to have some part of an application connect to Google TV.  For example, you might build an application that runs on a mobile phone, but has the ability to switch to the TV to display a web page.
+
+A reference implementation of the Anymote Protocol, written in Java, is available on this site.  To browse or download the code, select the [Source](http://code.google.com/p/anymote-protocol/source) tab above.
+
+The Anymote Protocol works in conjunction with the [Google TV Pairing Protocol](http://code.google.com/tv/remote/docs/pairing.html) ([source code](http://code.google.com/p/google-tv-pairing-protocol/)).
+
+For a working example of an application that uses the Anymote Protocol, you can download and try out the [Google TV Android Remote](https://market.android.com/details?id=com.google.android.apps.tvremote) application from the Android Marketplace.  This application turns your Android phone into a remote controller for Google TV.  The source code for the Google TV Android Remote application is available [here](http://code.google.com/p/google-tv-remote/).
